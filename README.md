@@ -1,5 +1,5 @@
 # Dockerfile-for-ifa_frend
-
+```
 FROM node:20.10.0
 
 # Set the working directory
@@ -19,3 +19,4 @@ EXPOSE 3000
 
 # Start the app
 CMD ["npm", "run", "dev"]
+```
